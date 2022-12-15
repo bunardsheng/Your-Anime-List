@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script type = "text/javascript" src="script.js" defer></script>
+  
+  </head>
+
+
+  <body>
+      
+      <header>
+        <h1 id ="nav-title"><a href = index.html>YourAnimeList</a></h1>
+        <nav>
+            
+            <ul>
+                <button id = "show-list">Show List</li>
+                <button id = "hide-list">Hide List</li>
+                  <button id = "refresh-list">Refresh</li>
+            </ul>
+            
+            
+            
+        </nav>
+      </header>
+      
+
+      <div id = "loading">
+        <h1>LOADING . . .</h1>
+
+      </div>
+      <div class = "search-bar">
+        <img>
+        <input id="search" type="text" placeholder="Search...">
+        <button id = "search-btn">Go</button>
+      </div>
+
+      <div class = "poster">
+            <h2 id = "complete-val">What should I watch today?</h2>
+            
+            <div id = "complete-list"></div>
+      </div>
+
+      <div id = "series">
+          
+          <div class = "series-box">
+
+              <div class = "anime-title">
+                <h5 id = "title-1"></h5>
+              </div>
+              <h6 class = "episode-num" id = "episode-1"></h6>
+             
+              <img class = "img-rec" id = "img-post-1" src = "">
+              <div>
+                  
+                  <p class = "desc-rec" id = "desc-1">No description provided.</p>
+                  <div class = "button-container">
+                    <button id = 'complete-1' class="button-completed">Add to List</button>
+                    
+                  </div>
+                  
+              </div>
+          </div>
+
+          <div class = "series-box">
+
+            <div class = "anime-title">
+              <h5 id = "title-2"></h5>
+            </div>
+            <h6 class = "episode-num" id = "episode-2"></h6>
+           
+            <img class = "img-rec" id = "img-post-2" src = "">
+            <div>
+      
+                <p class = "desc-rec"  id = "desc-2">No description provided.</p>
+                <div class = "button-container">
+                  <button id = 'complete-2' class="button-completed">Add to List</button>
+                  
+                </div>
+                
+            </div>
+        </div>
+
+            <div class = "series-box">
+                <div class = "anime-title">
+                  <h5 id = "title-3"></h5>
+                </div>
+                
+                <img class = "img-rec" id = "img-post-3" src = "">
+                
+                <div>
+                  
+                  <p class = "desc-rec"  id = "desc-3">No description provided.</p>
+                  <div class = "button-container">
+                    <button id = 'complete-3' class="button-completed">Add to List</button>
+                    
+                  </div>
+                  
+              </div>
+            </div>
+            
+
+      </div>
+
+      
+
+
+      
+  </body>
+</html>
