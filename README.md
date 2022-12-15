@@ -9,7 +9,9 @@ Features:
 - Random Anime Shuffle
 
 Track Your Anime
+-------------------
 Add suggested anime series to your list, and keep track of your episode and series watch count.
 
 Top Anime Suggestions
+----------------------------
 On load, the user is provided with a collection of top-rated anime.
