@@ -1,38 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js] project.
 
-## Getting Started
+## YourAnimeList, it's yours to binge.
 
-First, run the development server:
+YourAnimeList was designed specifically for anime enthusiasts, developed using React, Next.js, Express, and Node.js. This application offers a convenient and user-friendly platform to create and manage your personalized anime list, as well as discover new titles and track your progress across various series, all in a less cluttered and easy-on-the-eyes interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Personalized Anime List: Create your own customized anime list and organize it to your liking. You can categorize your entries based on genres, status (watching, completed, on-hold, dropped), and ratings. This feature allows you to keep track of the series you've watched and easily identify the ones you plan to watch in the future.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Add New Anime: Discover new anime titles through Jikan's extensive database and effortlessly add them to your list. The application provides detailed information about each anime, including synopsis, episode count, airing status, and genres. This makes it convenient for you to explore and expand your anime repertoire.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Episode Tracking: Stay on top of your progress within each anime series by tracking the episodes you've watched. AnimeList Tracker enables you to update your episode count, ensuring that you never lose your place in a particular series. This feature is particularly helpful for those who follow multiple ongoing anime simultaneously.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Daily Recommendations: Experience the joy of daily anime recommendations tailored to your interests. AnimeList Tracker's integration with Jikan enables you to receive personalized recommendations based on your anime history and preferences. This feature ensures that you're always discovering new and exciting titles that align with your tastes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Enjoy!
 
-## Learn More
+## See Backend:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The backend was developed in Express and Node. https://github.com/bunardsheng/YourAnimeList-Server
